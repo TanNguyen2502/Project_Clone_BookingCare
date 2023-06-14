@@ -1,0 +1,59 @@
+.doctor-schedule-container {
+  border-right: 1px solid #ddd;
+  height: 100%;
+}
+.doctor-schedule-container .all-schedule select {
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 0;
+  color: skyblue;
+  font-weight: 600;
+}
+.doctor-schedule-container .all-schedule select option {
+  cursor: pointer;
+}
+.doctor-schedule-container .all-available-time .text-calendar {
+  margin: 10px 0;
+  color: #333;
+}
+.doctor-schedule-container .all-available-time .text-calendar span {
+  -webkit-text-decoration: uppercase;
+          text-decoration: uppercase;
+  margin-left: 5px;
+}
+.doctor-schedule-container .all-available-time .time-content .time-content-btns {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.doctor-schedule-container .all-available-time .time-content .time-content-btns button {
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  background-color: yellow;
+  min-width: 120px;
+  border-radius: 3px;
+  font-weight: 600;
+  color: #333;
+}
+.doctor-schedule-container .all-available-time .time-content .time-content-btns button:hover {
+  background-color: #45c3d2;
+  color: white;
+}
+.doctor-schedule-container .all-available-time .time-content .time-content-btns .btn-vie {
+  min-width: 120px;
+}
+.doctor-schedule-container .all-available-time .time-content .time-content-btns .btn-en {
+  min-width: 170px;
+}
+.doctor-schedule-container .all-available-time .time-content .time-content-btns .no-schedule {
+  font-style: italic;
+  font-size: 14px;
+}
+.doctor-schedule-container .all-available-time .time-content .book-free {
+  margin-top: 10px;
+}/*# sourceMappingURL=DoctorSchedule.css.map */

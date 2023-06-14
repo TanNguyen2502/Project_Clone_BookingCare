@@ -1,0 +1,94 @@
+#TableManageUser{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#TableManageUser td, 
+#TableManageUser th{
+    border: 1px solid white;
+    padding: 8px;
+}
+#TableManageUser tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#TableManageUser tr:hover{
+    background-color: #ddd;
+}
+#TableManageUser th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.pagination button {
+    width: 50px;
+    height: 40px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 15px;
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: transparent;
+    color: black;
+    border-color: #eee;
+}
+.pagination button.active {
+    font-weight: 900;
+    border-color: #101010;
+    background: #ffe400;
+    color: #101010;
+}
+.pagination button.disabled {
+    font-weight: 900;
+    border-color: #101010;
+    background: blue;
+    color: #101010;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  img {
+    height: 100px;
+  }
+  
+  h1 {
+    color: #6c7ac9;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+  }
+  
+  .pagination a {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #6c7ac9;
+    color: #6c7ac9;
+  }
+  
+  .pagination__link {
+    font-weight: bold;
+  }
+  
+  .pagination__link--active a {
+    color: #fff;
+    background: #6c7ac9;
+  }
+  
+  .pagination__link--disabled a {
+    color: rgb(198, 197, 202);
+    border: 1px solid rgb(198, 197, 202);
+  }
+  

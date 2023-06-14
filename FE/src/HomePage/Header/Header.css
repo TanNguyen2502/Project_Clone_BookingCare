@@ -1,0 +1,178 @@
+.home-header-container {
+  height: 60px;
+  width: 100%;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
+.home-header-container .home-header-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.home-header-container .home-header-content .left-content {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.home-header-container .home-header-content .left-content .header-logo {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  transform: scale(0.5, 0.5);
+  margin-left: -45px;
+}
+.home-header-container .home-header-content i {
+  font-size: 25px;
+  color: grey;
+  cursor: pointer;
+}
+.home-header-container .center-content {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-header-container .center-content .child-content .subs-title {
+  font-weight: 400;
+  font-size: 12px;
+}
+.home-header-container .right-content {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.home-header-container .right-content .support {
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.home-header-container .right-content .support i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+.home-header-container .right-content .support .btn-admin {
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-left: 12px;
+}
+.home-header-container .right-content .language-vi {
+  cursor: pointer;
+  opacity: 0.2;
+}
+.home-header-container .right-content .language-vi.active {
+  opacity: 1;
+}
+.home-header-container .right-content .language-vi.active span {
+  color: orange;
+}
+.home-header-container .right-content .language-vi:hover {
+  opacity: 0.8;
+}
+.home-header-container .right-content .language-en {
+  margin: 0 10px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+.home-header-container .right-content .language-en.active {
+  opacity: 1;
+}
+.home-header-container .right-content .language-en.active span {
+  color: blue;
+}
+.home-header-container .right-content .language-en:hover {
+  opacity: 0.8;
+}
+
+.home-header-banner {
+  background-image: url("../../assets/images/header-background.jpg");
+  height: 485px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+.home-header-banner .content-up {
+  background-image: linear-gradient(rgba(126, 126, 126, 0.25), rgba(255, 255, 255, 0.1));
+  padding-top: 15px;
+  height: 65%;
+}
+.home-header-banner .content-up .title1 {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #333;
+  margin-bottom: 5px;
+  color: white;
+  margin-top: 30px;
+}
+.home-header-banner .content-up .title2 {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #333;
+  color: white;
+  margin-bottom: 15px;
+}
+.home-header-banner .content-up .search {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  background: yellow;
+}
+.home-header-banner .content-up .search i {
+  margin: 0 5px;
+}
+.home-header-banner .content-up .search input {
+  height: 30px;
+  width: 360px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.home-header-banner .content-down {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgb(255, 255, 255));
+  height: 35%;
+}
+.home-header-banner .content-down .options {
+  text-align: center;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.home-header-banner .content-down .options .option-child {
+  width: 100px;
+}
+.home-header-banner .content-down .options .option-child .icon-child {
+  background: white;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.home-header-banner .content-down .options .option-child .icon-child i {
+  color: blue;
+  font-size: 20px;
+}
+.home-header-banner .content-down .options .option-child .text-child {
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.home-header-banner .content-down .options .option-child .text-child:hover {
+  color: #49bce2;
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,56 @@
+.doctor-detail-container {
+  height: 500px;
+}
+.doctor-detail-container .intro-doctor {
+  display: flex;
+  margin: 0 100px;
+}
+.doctor-detail-container .intro-doctor .content-left {
+  width: 20%;
+  background: center center no-repeat;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.doctor-detail-container .intro-doctor .content-right {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.doctor-detail-container .intro-doctor .content-right .up {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.doctor-detail-container .intro-doctor .content-right .down {
+  padding-top: 10px;
+}
+.doctor-detail-container .schedule-doctor {
+  margin: 0 100px;
+  display: flex;
+  padding: 10px 0;
+  height: 200px;
+}
+.doctor-detail-container .schedule-doctor .content-left {
+  width: 50%;
+}
+.doctor-detail-container .schedule-doctor .content-right {
+  width: 50%;
+}
+.doctor-detail-container .detail-infor-doctor {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 10px 100px;
+}
+.doctor-detail-container .detail-infor-doctor h3 {
+  font-size: 17px;
+}
+.doctor-detail-container .detail-infor-doctor img {
+  width: 100%;
+}
+.doctor-detail-container .comment-doctor {
+  height: 50px;
+}/*# sourceMappingURL=DetailDoctor.css.map */

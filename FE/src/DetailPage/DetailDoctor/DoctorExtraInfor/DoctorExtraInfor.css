@@ -1,0 +1,52 @@
+.doctor-extra-infor-container {
+  padding-left: 15px;
+}
+.doctor-extra-infor-container .content-up {
+  margin-bottom: 10px;
+}
+.doctor-extra-infor-container .content-up .text-address {
+  text-transform: uppercase;
+  color: #333;
+}
+.doctor-extra-infor-container .content-up .name-clinic {
+  padding: 5px 0;
+  font-weight: 600;
+  color: #333;
+}
+.doctor-extra-infor-container .content-up .detail-address {
+  font-weight: 600;
+  color: #333;
+}
+.doctor-extra-infor-container .content-down .short-infor .detail {
+  cursor: pointer;
+  color: rgb(38, 160, 231);
+}
+.doctor-extra-infor-container .content-down .short-infor .currency {
+  margin: 0 5px;
+}
+.doctor-extra-infor-container .content-down .title-price {
+  margin-bottom: 10px;
+}
+.doctor-extra-infor-container .content-down .detail-infor {
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #f8f8f8;
+}
+.doctor-extra-infor-container .content-down .detail-infor .price {
+  padding-bottom: 5px;
+}
+.doctor-extra-infor-container .content-down .detail-infor .price .right {
+  float: right;
+}
+.doctor-extra-infor-container .content-down .payment {
+  border: 1px solid #ddd;
+  padding: 5px;
+  background-color: #eee;
+}
+.doctor-extra-infor-container .content-down .hide-price {
+  margin-top: 10px;
+}
+.doctor-extra-infor-container .content-down .hide-price span {
+  cursor: pointer;
+  color: rgb(38, 160, 231);
+}/*# sourceMappingURL=DoctorExtraInfor.css.map */

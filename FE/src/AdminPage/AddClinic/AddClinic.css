@@ -1,0 +1,18 @@
+.manage-specialty-container {
+  padding: 0 15px;
+}
+.manage-specialty-container .ms-title {
+  text-align: center;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+}
+.manage-specialty-container .add-new-specialty .btn-save-specialty {
+  border: none;
+  background: orange;
+  padding: 8px 5px;
+  min-width: 75px;
+  border-radius: 3px;
+  margin: 15px 0;
+}/*# sourceMappingURL=AddClinic.css.map */

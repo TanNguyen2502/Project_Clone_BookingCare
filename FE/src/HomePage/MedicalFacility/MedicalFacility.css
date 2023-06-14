@@ -1,0 +1,9 @@
+.clinic-child {
+  cursor: pointer;
+}
+.clinic-child .clinic-name {
+  padding: 10px 0;
+}
+.clinic-child .clinic-name:hover {
+  color: #45c3d2;
+}/*# sourceMappingURL=MedicalFacility.css.map */
